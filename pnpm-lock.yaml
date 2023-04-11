@@ -55,6 +55,9 @@ importers:
       exceljs:
         specifier: ^4.3.0
         version: 4.3.0
+      increase-memory-limit:
+        specifier: ^1.0.7
+        version: 1.0.7
       intro.js:
         specifier: ^7.0.1
         version: 7.0.1
@@ -5518,6 +5521,13 @@ packages:
     resolution: {integrity: sha512-JmXMZ6wuvDmLiHEml9ykzqO6lwFbof0GG4IkcGaENdCRDDmMVnny7s5HsIgHCbaq0w2MyPhDqkhTUgS2LU2PHA==}
     engines: {node: '>=0.8.19'}
     dev: true
+
+  /increase-memory-limit@1.0.7:
+    resolution: {integrity: sha512-ozyn+HHAPD9VxMT1U50A7G8XXlktUWhnnEDYSeDYnQjKsNrBWHqq6XfEA0uhMdDPD+q/7rXWlzF1CbXX/c1LiQ==}
+    hasBin: true
+    dependencies:
+      glob: 7.2.3
+    dev: false
 
   /indent-string@4.0.0:
     resolution: {integrity: sha512-EdDDZu4A2OyIK7Lr/2zG+w5jmbuk1DVBnEwREQvBzspBJkCEbRa8GxU1lghYcaGJCnRWibjDXlq779X1/y5xwg==}
